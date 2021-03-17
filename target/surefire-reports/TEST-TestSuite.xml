@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.473" tests="26" errors="0" skipped="7" failures="12">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\mahammad.jabir.s.i\eclipse-workspace\RestAssuredAutomationFramework\target\test-classes;C:\Users\mahammad.jabir.s.i\eclipse-workspace\RestAssuredAutomationFramework\target\classes;C:\windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\windows\system32\config\systemprofile\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\windows\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng\3.0.0-M5\surefire-testng-3.0.0-M5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\3.0.0-M5\surefire-testng-utils-3.0.0-M5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\3.0.0-M5\surefire-grouper-3.0.0-M5.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Windows\Temp\surefire3705019651542234197 2021-03-17T15-00-36_482-jvmRun1 surefire5689744390937683319tmp surefire_014150879431895856693tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\mahammad.jabir.s.i\eclipse-workspace\RestAssuredAutomationFramework\target\test-classes;C:\Users\mahammad.jabir.s.i\eclipse-workspace\RestAssuredAutomationFramework\target\classes;C:\windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\windows\system32\config\systemprofile\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\windows\system32\config\systemprofile\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\mahammad.jabir.s.i\eclipse-workspace\RestAssuredAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="BDC8-LX-HPYB103$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\windows\TEMP\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\mahammad.jabir.s.i\eclipse-workspace\RestAssuredAutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk-15.0.1/bin;C:\Program Files\Java\jdk-15.0.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\apache-maven-3.6.3\bin\;C:\Program Files\Git\bin\;C:\Program Files (x86)\apache-maven-3.6.3\\bin;C:\Program Files (x86)\apache-maven-3.6.3\;C:\Program Files\Java\jdk-15.0.1\\lib;C:\Program Files\Java\jdk-15.0.1\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="checkContentType" classname="com.testCases.TC01_Get_All_Employees" time="0.016">
+    <system-out><![CDATA[http://dummy.restapiexample.com/api/v1
+/employee/51838
+03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 92 - Content Type is=>text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.testCases.TC01_Get_All_Employees" time="0.028">
+    <system-out><![CDATA[03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 51 - -------Checing the Response Body------
+03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 53 - Response Body=> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.testCases.TC01_Get_All_Employees" time="0.003">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.testCases.TC01_Get_All_Employees.checkResponseTime(TC01_Get_All_Employees.java:75)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 71 - Response Time is=>2497
+03-17-2021 15:00:47 TC01_Get_All_Employees.java WARN  [main] RestAPI_Automation_Logs 74 - Response time is greater than 2000
+]]></system-out>
+  </testcase>
+  <testcase name="checkServerType" classname="com.testCases.TC01_Get_All_Employees" time="0.001">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.testCases.TC01_Get_All_Employees.checkServerType(TC01_Get_All_Employees.java:102)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 101 - Content Type is=>nginx/1.16.0
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.testCases.TC01_Get_All_Employees" time="0.002">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [429]
+	at com.testCases.TC01_Get_All_Employees.checkStatusCode(TC01_Get_All_Employees.java:63)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 62 - Status code=>429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.testCases.TC01_Get_All_Employees" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.testCases.TC01_Get_All_Employees.checkStatusLine(TC01_Get_All_Employees.java:84)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:47 TC01_Get_All_Employees.java INFO  [main] RestAPI_Automation_Logs 83 - Status code=>HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.testCases.TC02_POST_Employee_Record" time="0.002">
+    <failure message="expected [text/html; charset=UTF-8] but found [application/json]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.testCases.TC02_POST_Employee_Record.checkContentType(TC02_POST_Employee_Record.java:95)
+]]></failure>
+    <system-out><![CDATA[http://dummy.restapiexample.com/api/v1
+/create
+Jabir
+500000.0
+24.0
+03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 94 - Content Type is=>application/json
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.testCases.TC02_POST_Employee_Record" time="0.001">
+    <system-out><![CDATA[03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 75 - Response Time is=>1187
+]]></system-out>
+  </testcase>
+  <testcase name="checkServerType" classname="com.testCases.TC02_POST_Employee_Record" time="0">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.testCases.TC02_POST_Employee_Record.checkServerType(TC02_POST_Employee_Record.java:103)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 102 - Content Type is=>nginx/1.16.0
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.testCases.TC02_POST_Employee_Record" time="0.001">
+    <system-out><![CDATA[03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 67 - Status code=>200
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.testCases.TC02_POST_Employee_Record" time="0.001">
+    <system-out><![CDATA[03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 86 - Status code=>HTTP/1.1 200 OK
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseBody" classname="com.testCases.TC02_POST_Employee_Record" time="0.14">
+    <failure message="class java.util.LinkedHashMap cannot be cast to class java.lang.String (java.util.LinkedHashMap and java.lang.String are in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException"><![CDATA[java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class java.lang.String (java.util.LinkedHashMap and java.lang.String are in module java.base of loader 'bootstrap')
+	at com.testCases.TC02_POST_Employee_Record.testResponseBody(TC02_POST_Employee_Record.java:58)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 54 - -------Checing the Response Body------
+03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 56 - Response Body=> {"status":"success","data":{"name":"Jabir","salary":500000,"age":24,"id":6690},"message":"Successfully! Record has been added."}
+]]></system-out>
+  </testcase>
+  <testcase name="getAllEmployees" classname="com.testCases.TC03_DELETE_Request" time="1.652">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.testCases.TC03_DELETE_Request.getAllEmployees(TC03_DELETE_Request.java:42)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.testCases.TC03_DELETE_Request.getAllEmployees(TC03_DELETE_Request.java:42)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:52 TC02_POST_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 109 - ---------------------------End TC02_create_employee-----------------
+http://dummy.restapiexample.com/api/v1
+/employee/51838
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkServerType" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped message="Failed to parse the JSON document"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.testCases.TC03_DELETE_Request" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkContentType" classname="com.testCases.TC02_PUT_Employee_Record" time="0.001">
+    <system-out><![CDATA[http://dummy.restapiexample.com/api/v1
+/update/51838
+Mjsi
+40000.0
+26.0
+03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 91 - Content Type is=>text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.testCases.TC02_PUT_Employee_Record" time="0">
+    <system-out><![CDATA[03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 72 - Response Time is=>1211
+]]></system-out>
+  </testcase>
+  <testcase name="checkServerType" classname="com.testCases.TC02_PUT_Employee_Record" time="0.001">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.testCases.TC02_PUT_Employee_Record.checkServerType(TC02_PUT_Employee_Record.java:100)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 99 - Server Type is=>nginx/1.16.0
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.testCases.TC02_PUT_Employee_Record" time="0.001">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [429]
+	at com.testCases.TC02_PUT_Employee_Record.checkStatusCode(TC02_PUT_Employee_Record.java:65)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 64 - Status code=>429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.testCases.TC02_PUT_Employee_Record" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.testCases.TC02_PUT_Employee_Record.checkStatusLine(TC02_PUT_Employee_Record.java:84)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 83 - Status Line=>HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+  <testcase name="testResponseBody" classname="com.testCases.TC02_PUT_Employee_Record" time="0.005">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.testCases.TC02_PUT_Employee_Record.testResponseBody(TC02_PUT_Employee_Record.java:55)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.testCases.TC02_PUT_Employee_Record.testResponseBody(TC02_PUT_Employee_Record.java:55)
+]]></failure>
+    <system-out><![CDATA[03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 51 - -------Checing the Response Body------
+03-17-2021 15:00:58 TC02_PUT_Employee_Record.java INFO  [main] RestAPI_Automation_Logs 53 - Response Body=> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+]]></system-out>
+  </testcase>
+</testsuite>

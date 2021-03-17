@@ -1,0 +1,145 @@
+2021-03-17 15:00:47,704  INFO [main] RestAPI_Automation_Logs:92 - Content Type is=>text/html; charset=UTF-8
+2021-03-17 15:00:47,721  INFO [main] RestAPI_Automation_Logs:51 - -------Checing the Response Body------
+2021-03-17 15:00:47,743  INFO [main] RestAPI_Automation_Logs:53 - Response Body=> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2021-03-17 15:00:47,745  INFO [main] RestAPI_Automation_Logs:71 - Response Time is=>2497
+2021-03-17 15:00:47,746  WARN [main] RestAPI_Automation_Logs:74 - Response time is greater than 2000
+2021-03-17 15:00:47,752  INFO [main] RestAPI_Automation_Logs:101 - Content Type is=>nginx/1.16.0
+2021-03-17 15:00:47,754  INFO [main] RestAPI_Automation_Logs:62 - Status code=>429
+2021-03-17 15:00:47,757  INFO [main] RestAPI_Automation_Logs:83 - Status code=>HTTP/1.1 429 Too Many Requests
+2021-03-17 15:00:52,126  INFO [main] RestAPI_Automation_Logs:94 - Content Type is=>application/json
+2021-03-17 15:00:52,129  INFO [main] RestAPI_Automation_Logs:75 - Response Time is=>1187
+2021-03-17 15:00:52,129  INFO [main] RestAPI_Automation_Logs:102 - Content Type is=>nginx/1.16.0
+2021-03-17 15:00:52,130  INFO [main] RestAPI_Automation_Logs:67 - Status code=>200
+2021-03-17 15:00:52,131  INFO [main] RestAPI_Automation_Logs:86 - Status code=>HTTP/1.1 200 OK
+2021-03-17 15:00:52,132  INFO [main] RestAPI_Automation_Logs:54 - -------Checing the Response Body------
+2021-03-17 15:00:52,133  INFO [main] RestAPI_Automation_Logs:56 - Response Body=> {"status":"success","data":{"name":"Jabir","salary":500000,"age":24,"id":6690},"message":"Successfully! Record has been added."}
+2021-03-17 15:00:52,271  INFO [main] RestAPI_Automation_Logs:109 - ---------------------------End TC02_create_employee-----------------
+2021-03-17 15:00:58,206  INFO [main] RestAPI_Automation_Logs:91 - Content Type is=>text/html; charset=UTF-8
+2021-03-17 15:00:58,207  INFO [main] RestAPI_Automation_Logs:72 - Response Time is=>1211
+2021-03-17 15:00:58,207  INFO [main] RestAPI_Automation_Logs:99 - Server Type is=>nginx/1.16.0
+2021-03-17 15:00:58,208  INFO [main] RestAPI_Automation_Logs:64 - Status code=>429
+2021-03-17 15:00:58,209  INFO [main] RestAPI_Automation_Logs:83 - Status Line=>HTTP/1.1 429 Too Many Requests
+2021-03-17 15:00:58,210  INFO [main] RestAPI_Automation_Logs:51 - -------Checing the Response Body------
+2021-03-17 15:00:58,210  INFO [main] RestAPI_Automation_Logs:53 - Response Body=> <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2021-03-17 15:00:58,212  INFO [main] RestAPI_Automation_Logs:106 - ---------------------------End TC02_create_employee-----------------
+2021-03-17 15:00:58,476  INFO [main] RestAPI_Automation_Logs:126 - ---------------------------End TC01_Get_All_Employees-----------------

@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 12, Errors: 0, Skipped: 7, Time elapsed: 20.473 s <<< FAILURE! - in TestSuite
+com.testCases.TC01_Get_All_Employees.checkResponseTime  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.testCases.TC01_Get_All_Employees.checkResponseTime(TC01_Get_All_Employees.java:75)
+
+com.testCases.TC01_Get_All_Employees.checkServerType  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.testCases.TC01_Get_All_Employees.checkServerType(TC01_Get_All_Employees.java:102)
+
+com.testCases.TC01_Get_All_Employees.checkStatusCode  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.testCases.TC01_Get_All_Employees.checkStatusCode(TC01_Get_All_Employees.java:63)
+
+com.testCases.TC01_Get_All_Employees.checkStatusLine  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.testCases.TC01_Get_All_Employees.checkStatusLine(TC01_Get_All_Employees.java:84)
+
+com.testCases.TC02_POST_Employee_Record.checkContentType  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.testCases.TC02_POST_Employee_Record.checkContentType(TC02_POST_Employee_Record.java:95)
+
+com.testCases.TC02_POST_Employee_Record.checkServerType  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.testCases.TC02_POST_Employee_Record.checkServerType(TC02_POST_Employee_Record.java:103)
+
+com.testCases.TC02_POST_Employee_Record.testResponseBody  Time elapsed: 0.14 s  <<< FAILURE!
+java.lang.ClassCastException: class java.util.LinkedHashMap cannot be cast to class java.lang.String (java.util.LinkedHashMap and java.lang.String are in module java.base of loader 'bootstrap')
+	at com.testCases.TC02_POST_Employee_Record.testResponseBody(TC02_POST_Employee_Record.java:58)
+
+com.testCases.TC03_DELETE_Request.getAllEmployees  Time elapsed: 1.652 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.testCases.TC03_DELETE_Request.getAllEmployees(TC03_DELETE_Request.java:42)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.testCases.TC03_DELETE_Request.getAllEmployees(TC03_DELETE_Request.java:42)
+
+com.testCases.TC02_PUT_Employee_Record.checkServerType  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at com.testCases.TC02_PUT_Employee_Record.checkServerType(TC02_PUT_Employee_Record.java:100)
+
+com.testCases.TC02_PUT_Employee_Record.checkStatusCode  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.testCases.TC02_PUT_Employee_Record.checkStatusCode(TC02_PUT_Employee_Record.java:65)
+
+com.testCases.TC02_PUT_Employee_Record.checkStatusLine  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.testCases.TC02_PUT_Employee_Record.checkStatusLine(TC02_PUT_Employee_Record.java:84)
+
+com.testCases.TC02_PUT_Employee_Record.testResponseBody  Time elapsed: 0.005 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.testCases.TC02_PUT_Employee_Record.testResponseBody(TC02_PUT_Employee_Record.java:55)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.testCases.TC02_PUT_Employee_Record.testResponseBody(TC02_PUT_Employee_Record.java:55)
+
